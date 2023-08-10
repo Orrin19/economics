@@ -5,7 +5,7 @@ async function configureManager() {
   manager.countBaseIncome();
   manager.countTradeIncome();
   manager.countFullIncome();
+  console.log(manager);
 }
 
 configureManager();
-console.log(manager);

@@ -1,0 +1,7 @@
+body {
+  background-image: url('../assets/Lamoraun.png');
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+}
