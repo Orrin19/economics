@@ -1,0 +1,38 @@
+{
+  "list": [
+    {
+      "name": "Аберката",
+      "id": "aberkata",
+      "income": 10000,
+      "countries": [
+        {
+          "id": "barvaria",
+          "influence": 40
+        },
+        {
+          "id": "brabermain",
+          "influence": 50
+        },
+        {
+          "id": "anargond",
+          "influence": 10
+        }
+      ]
+    },
+    {
+      "name": "Антаковия",
+      "id": "antakovia",
+      "income": 5000,
+      "countries": [
+        {
+          "id": "barvaria",
+          "influence": 80
+        },
+        {
+          "id": "brabermain",
+          "influence": 20
+        }
+      ]
+    }
+  ]
+}

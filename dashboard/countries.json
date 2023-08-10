@@ -1,0 +1,172 @@
+{
+  "list": [
+    {
+      "name": "Анаргонд",
+      "id": "anargond",
+      "treasure": 5000,
+      "efficiency": 50,
+      "goods": ["gold"]
+    },
+    {
+      "name": "Ансария",
+      "id": "ansaria",
+      "treasure": 5000,
+      "efficiency": 50,
+      "goods": ["gold"]
+    },
+    {
+      "name": "Барвария",
+      "id": "barvaria",
+      "treasure": 50000,
+      "efficiency": 45,
+      "goods": ["iron", "gold"]
+    },
+    {
+      "name": "Брабермейн",
+      "id": "brabermain",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Кельтания",
+      "id": "celtania",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Игтянь-Гоу",
+      "id": "chengon",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Эдильдор",
+      "id": "edildor",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Еврабия",
+      "id": "eurabia",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Кехия",
+      "id": "kehia",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Лодогия Лайоша",
+      "id": "layosh",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Маубу",
+      "id": "maubu",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Мелекия",
+      "id": "melekia",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Лодогийский Патриархат",
+      "id": "patriarchy",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Союз Трёх Княжеств",
+      "id": "principalities",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "ЦТЛ",
+      "id": "qtl",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Цуньжоу",
+      "id": "qunzhou",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Раби",
+      "id": "rabi",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Шушия",
+      "id": "shushia",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Суидал",
+      "id": "suidal",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Лодогия Тибора",
+      "id": "tibor",
+      "treasure": 75000,
+      "efficiency": 45,
+      "goods": ["iron"]
+    },
+    {
+      "name": "Вельмиссия",
+      "id": "velmissia",
+      "treasure": 50000,
+      "efficiency": 45,
+      "goods": ["coffee"]
+    },
+    {
+      "name": "Вочия",
+      "id": "vochia",
+      "treasure": 60000,
+      "efficiency": 40,
+      "goods": ["gold", "coffee"]
+    },
+    {
+      "name": "Ямотания",
+      "id": "yamotania",
+      "treasure": 60000,
+      "efficiency": 40,
+      "goods": ["gold", "coffee"]
+    },
+    {
+      "name": "Ешар",
+      "id": "yeshar",
+      "treasure": 60000,
+      "efficiency": 40,
+      "goods": ["gold", "coffee"]
+    }
+  ]
+}

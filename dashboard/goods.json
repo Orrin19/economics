@@ -1,0 +1,19 @@
+{
+  "list": [
+    {
+      "name": "Железо",
+      "id": "iron",
+      "share": "3"
+    },
+    {
+      "name": "Золото",
+      "id": "gold",
+      "share": "2"
+    },
+    {
+      "name": "Кофе",
+      "id": "coffee",
+      "share": "2"
+    }
+  ]
+}
