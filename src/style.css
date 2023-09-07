@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Kingthings';
-  src: url('/assets/fonts/Kingthings_Petrock_Rus.ttf') format('truetype');
+  src: url('../assets/fonts/Kingthings_Petrock_Rus.ttf') format('truetype');
 }
 
 :root {
