@@ -70,6 +70,10 @@ body {
 .tradenode-window__countries,
 .tradenode-window__countries * {
   margin: 0;
+}
+
+.tradenode-window__countries,
+.tradenode-window__countries > div {
   width: 100%;
 }
 
