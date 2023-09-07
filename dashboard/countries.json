@@ -5,6 +5,7 @@
       "id": "anargond",
       "treasure": 5000,
       "efficiency": 50,
+      "color": "#f14493",
       "goods": ["gold"]
     },
     {
@@ -12,6 +13,7 @@
       "id": "ansaria",
       "treasure": 5000,
       "efficiency": 50,
+      "color": "#be3d75",
       "goods": ["gold"]
     },
     {
@@ -19,6 +21,7 @@
       "id": "barvaria",
       "treasure": 50000,
       "efficiency": 45,
+      "color": "#20b1d4",
       "goods": ["iron", "gold"]
     },
     {
@@ -26,6 +29,7 @@
       "id": "brabermain",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#83e1a5",
       "goods": ["iron"]
     },
     {
@@ -33,6 +37,7 @@
       "id": "celtania",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#ff8a39",
       "goods": ["iron"]
     },
     {
@@ -40,6 +45,7 @@
       "id": "chengon",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#ffd92f",
       "goods": ["iron"]
     },
     {
@@ -47,6 +53,7 @@
       "id": "edildor",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#fa8b7e",
       "goods": ["iron"]
     },
     {
@@ -54,6 +61,7 @@
       "id": "eurabia",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#a6d854",
       "goods": ["iron"]
     },
     {
@@ -61,6 +69,7 @@
       "id": "kehia",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#c8cf6c",
       "goods": ["iron"]
     },
     {
@@ -68,6 +77,7 @@
       "id": "layosh",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#92a2e2",
       "goods": ["iron"]
     },
     {
@@ -75,6 +85,7 @@
       "id": "maubu",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#a2a2e2",
       "goods": ["iron"]
     },
     {
@@ -82,6 +93,7 @@
       "id": "melekia",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#83e1a5",
       "goods": ["iron"]
     },
     {
@@ -89,6 +101,7 @@
       "id": "patriarchy",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#92a2e2",
       "goods": ["iron"]
     },
     {
@@ -96,6 +109,7 @@
       "id": "principalities",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#d3a5db",
       "goods": ["iron"]
     },
     {
@@ -103,6 +117,7 @@
       "id": "qtl",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#b5f65f",
       "goods": ["iron"]
     },
     {
@@ -110,6 +125,7 @@
       "id": "qunzhou",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#b5f65f",
       "goods": ["iron"]
     },
     {
@@ -117,6 +133,7 @@
       "id": "rabi",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#7766c2",
       "goods": ["iron"]
     },
     {
@@ -124,6 +141,7 @@
       "id": "shushia",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#e78ac3",
       "goods": ["iron"]
     },
     {
@@ -131,6 +149,7 @@
       "id": "suidal",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#be3d75",
       "goods": ["iron"]
     },
     {
@@ -138,6 +157,7 @@
       "id": "tibor",
       "treasure": 75000,
       "efficiency": 45,
+      "color": "#92a2e2",
       "goods": ["iron"]
     },
     {
@@ -145,6 +165,7 @@
       "id": "velmissia",
       "treasure": 50000,
       "efficiency": 45,
+      "color": "#f9c6a6",
       "goods": ["coffee"]
     },
     {
@@ -152,6 +173,7 @@
       "id": "vochia",
       "treasure": 60000,
       "efficiency": 40,
+      "color": "#fccf62",
       "goods": ["gold", "coffee"]
     },
     {
@@ -159,6 +181,7 @@
       "id": "yamotania",
       "treasure": 60000,
       "efficiency": 40,
+      "color": "#2fc7ee",
       "goods": ["gold", "coffee"]
     },
     {
@@ -166,6 +189,7 @@
       "id": "yeshar",
       "treasure": 60000,
       "efficiency": 40,
+      "color": "#9cf46c",
       "goods": ["gold", "coffee"]
     }
   ]

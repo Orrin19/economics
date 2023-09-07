@@ -23,16 +23,265 @@
       "name": "Антаковия",
       "id": "antakovia",
       "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Бават",
+      "id": "bavat",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Бушар",
+      "id": "bushar",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Чжун-Ту",
+      "id": "chongtu",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Клиттам",
+      "id": "clittam",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Дочехия",
+      "id": "dochekhia",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Джуджух",
+      "id": "dzhudzhuh",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Море призраков",
+      "id": "ghostsea",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Гошар",
+      "id": "goshar",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Корская равнина",
+      "id": "koreuplain",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Лодогийский залив",
+      "id": "lodogianbay",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Нижний Бамбуг",
+      "id": "lowerbambug",
+      "income": 5000,
+      "countries": [
+        {
+          "id": "brabermain",
+          "influence": 35
+        },
+        {
+          "id": "eurabia",
+          "influence": 15
+        },
+        {
+          "id": "maubu",
+          "influence": 10
+        },
+        {
+          "id": "edildor",
+          "influence": 30
+        },
+        {
+          "id": "melekia",
+          "influence": 10
+        }
+      ]
+    },
+    {
+      "name": "Нижние земли",
+      "id": "lowerlands",
+      "income": 5000,
       "countries": [
         {
           "id": "barvaria",
-          "influence": 80
+          "influence": 4
         },
         {
           "id": "brabermain",
+          "influence": 60
+        },
+        {
+          "id": "chengon",
+          "influence": 4
+        },
+        {
+          "id": "qtl",
           "influence": 20
+        },
+        {
+          "id": "qunzhou",
+          "influence": 12
         }
       ]
+    },
+    {
+      "name": "Низовья Луриниса",
+      "id": "lowerlurinis",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Новое море",
+      "id": "newsea",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Старые степи",
+      "id": "oldsteppe",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Княжества",
+      "id": "principalities",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Рабийские пески",
+      "id": "rabiansands",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Буйное море",
+      "id": "roughsea",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Снофельт",
+      "id": "snofelt",
+      "income": 5000,
+      "countries": [
+        {
+          "id": "barvaria",
+          "influence": 2
+        },
+        {
+          "id": "brabermain",
+          "influence": 85
+        },
+        {
+          "id": "maubu",
+          "influence": 10
+        },
+        {
+          "id": "edildor",
+          "influence": 3
+        }
+      ]
+    },
+    {
+      "name": "Сырантур",
+      "id": "syrantur",
+      "income": 5000,
+      "countries": [
+        {
+          "id": "barvaria",
+          "influence": 35
+        },
+        {
+          "id": "eurabia",
+          "influence": 35
+        },
+        {
+          "id": "anargond",
+          "influence": 30
+        }
+      ]
+    },
+    {
+      "name": "Тарк",
+      "id": "tark",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Верхний Бамбуг",
+      "id": "upperbambug",
+      "income": 5000,
+      "countries": [
+        {
+          "id": "barvaria",
+          "influence": 5
+        },
+        {
+          "id": "eurabia",
+          "influence": 75
+        },
+        {
+          "id": "layosh",
+          "influence": 10
+        },
+        {
+          "id": "edildor",
+          "influence": 5
+        },
+        {
+          "id": "patriarchy",
+          "influence": 5
+        }
+      ]
+    },
+    {
+      "name": "Верхние земли",
+      "id": "upperlands",
+      "income": 5000,
+      "countries": [
+        {
+          "id": "barvaria",
+          "influence": 65
+        },
+        {
+          "id": "brabermain",
+          "influence": 35
+        }
+      ]
+    },
+    {
+      "name": "Вельмиссия",
+      "id": "velmissia",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Вадэрд",
+      "id": "waderd",
+      "income": 5000,
+      "countries": []
+    },
+    {
+      "name": "Ямотания",
+      "id": "yamotania",
+      "income": 5000,
+      "countries": []
     }
   ]
 }

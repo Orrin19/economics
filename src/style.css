@@ -1,7 +1,82 @@
+@font-face {
+  font-family: 'Kingthings';
+  src: url('/assets/fonts/Kingthings_Petrock_Rus.ttf') format('truetype');
+}
+
+:root {
+  --map-background-color: #376b91;
+}
+
 body {
+  background-color: var(--map-background-color);
   background-image: url('../assets/Lamoraun.png');
-  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: 'Kingthings';
   height: 100vh;
+  margin: 0;
   overflow: hidden;
   width: 100vw;
+}
+
+.map-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.map-container > img {
+  filter: opacity(0);
+  width: 100vw;
+}
+
+.map-container area {
+  cursor: pointer;
+}
+
+.tradenode-window {
+  background-color: aliceblue;
+  left: 50%;
+  max-height: 70%;
+  max-width: 80%;
+  min-height: 60%;
+  min-width: 40%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tradenode-window * {
+  margin: 1rem;
+}
+
+.tradenode-window__close {
+  cursor: pointer;
+  float: right;
+}
+
+.tradenode-window__name {
+  font-size: 3rem;
+}
+
+.tradenode-window__income * {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.tradenode-window__countries,
+.tradenode-window__countries * {
+  margin: 0;
+  width: 100%;
+}
+
+.tradenode-window__countries canvas {
+  margin: 0 auto;
+}
+
+.tradenode-window__countries > div > *:not(canvas) {
+  display: none;
 }
