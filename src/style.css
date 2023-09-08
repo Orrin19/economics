@@ -156,8 +156,14 @@ abbr {
 }
 
 .tradenode-window__income-icon {
+  background-image: url('../assets/gui/income.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 1em;
   position: relative;
-  top: 0.14em;
+  top: 0.2em;
+  width: 1em;
 }
 
 .tradenode-window__countries,

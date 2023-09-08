@@ -63,9 +63,8 @@ function buildTradenodeWindow(tradenode, countriesList) {
 
   const tradenodeIncome = document.createElement('abbr');
   tradenodeIncome.classList.add('tradenode-window__income');
-  const tradenodeIncomeIcon = document.createElement('img');
+  const tradenodeIncomeIcon = document.createElement('div');
   tradenodeIncomeIcon.classList.add('tradenode-window__income-icon');
-  tradenodeIncomeIcon.src = '/assets/gui/income.png';
   const tradenodeIncomeValue = document.createElement('span');
   tradenodeIncomeValue.classList.add('tradenode-window__income-value');
   tradenodeIncomeValue.innerText = 'Доход области: ' + tradenode.income;
