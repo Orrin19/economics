@@ -2,14 +2,14 @@ function renderPieChart(tradenode, tradeCountriesList) {
   const chart = new CanvasJS.Chart('countriesChart', {
     width: document.querySelector('.tradenode-window').offsetWidth,
     height: 300,
-    backgroundColor: 'aliceblue',
+    backgroundColor: 'transparent',
     data: [
       {
         type: 'pie',
         startAngle: -80,
         radius: window.innerWidth / 10,
         indexLabelFontSize: 20,
-        indexLabelFontColor: 'black',
+        indexLabelFontColor: '#e1e1e1',
         indexLabelFontFamily: 'Kingthings',
         indexLabel: '{label}',
         outerWidth: 100,
@@ -44,25 +44,33 @@ function buildTradenodeWindow(tradenode, countriesList) {
 
   const closeButton = document.createElement('button');
   closeButton.classList.add('tradenode-window__close');
-  closeButton.textContent = '⨉';
   closeButton.addEventListener('click', () => {
     closeTradenodeWindow(tradenodeWindow);
   });
   tradenodeWindow.append(closeButton);
 
-  const tradenodeName = document.createElement('h2');
+  /*const tradenodeName = document.createElement('h2');
   tradenodeName.classList.add('tradenode-window__name');
   tradenodeName.textContent = tradenode.name;
+  tradenodeWindow.append(tradenodeName);*/
+
+  const tradenodeName = document.createElement('div');
+  tradenodeName.classList.add('tradenode-window__name');
+  const tradenodeNameText = document.createElement('h2');
+  tradenodeNameText.textContent = tradenode.name;
+  tradenodeName.append(tradenodeNameText);
   tradenodeWindow.append(tradenodeName);
 
-  const tradenodeIncome = document.createElement('div');
+  const tradenodeIncome = document.createElement('abbr');
   tradenodeIncome.classList.add('tradenode-window__income');
   const tradenodeIncomeIcon = document.createElement('img');
   tradenodeIncomeIcon.classList.add('tradenode-window__income-icon');
-  //tradenodeIncomeIcon.src = '/assets/icons/income.png';
+  tradenodeIncomeIcon.src = '/assets/gui/income.png';
   const tradenodeIncomeValue = document.createElement('span');
   tradenodeIncomeValue.classList.add('tradenode-window__income-value');
-  tradenodeIncomeValue.innerText = tradenode.income;
+  tradenodeIncomeValue.innerText = 'Доход области: ' + tradenode.income;
+  tradenodeIncome.title =
+    'Общий доход с торгового узла, распределяющийся между влиятельными странами';
   tradenodeIncome.append(tradenodeIncomeIcon, tradenodeIncomeValue);
   tradenodeWindow.append(tradenodeIncome);
 
