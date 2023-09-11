@@ -46,28 +46,23 @@ body * {
   cursor: pointer;
 }
 
-.tradenode-window {
+.window {
   background-image: url('../assets/gui/window_background.png');
   background-repeat: repeat;
   border: 0.1em solid var(--window-border-color);
   border-radius: 0.3em;
   box-shadow: inset 0 0 3em 1em rgba(0, 0, 0, 0.5);
   left: 50%;
-  max-height: 70%;
-  max-width: 80%;
-  min-height: 60%;
-  min-width: 40%;
   position: fixed;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: 100;
 }
 
-.tradenode-window * {
+.window * {
   margin: 1rem;
 }
 
-.tradenode-window__close {
+.window__close {
   background-color: transparent;
   background-image: url('../assets/gui/closebutton.png');
   background-size: cover;
@@ -78,22 +73,9 @@ body * {
   right: 0;
   height: 2.5em;
   width: 2.5em;
-  z-index: 200;
 }
 
-/*.tradenode-window__name {
-  background-image: url('../assets/gui/header.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-clip: border-box;
-  font-size: 3rem;
-  font-weight: normal;
-  margin: 0 auto;
-  padding: 0.4em 1.5em;
-  width: fit-content;
-}*/
-
-.tradenode-window__name {
+.window__name {
   background-image: url('../assets/gui/header.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -103,7 +85,7 @@ body * {
   width: calc(100% - 6rem);
 }
 
-.tradenode-window__name h2 {
+.window__name h2 {
   font-size: 2rem;
   font-weight: normal;
   margin: 0;
@@ -111,59 +93,58 @@ body * {
   text-align: center;
 }
 
-/*.tradenode-window__name {
-  display: flex;
-  margin: 0 auto;
-  padding: 0.4em -3em;
-  width: fit-content;
-}
-
-.tradenode-window__name h2 {
-  background-image: url('../assets/gui/header_middle.png');
-  background-repeat: repeat-x;
-  background-size: contain;
-  font-size: 2rem;
-  font-weight: normal;
-  margin: 0;
-}
-
-.tradenode-window__name::before {
-  background-image: url('../assets/gui/header_left.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: '';
-  display: inline-block;
-  width: 3em;
-}
-
-.tradenode-window__name::after {
-  background-image: url('../assets/gui/header_right.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: '';
-  display: inline-block;
-  width: 3em;
-}*/
-
-abbr {
+.window__parameter,
+.window__parameter-small {
   cursor: help;
   text-decoration: dotted 1px underline;
 }
 
-.tradenode-window__income * {
+.window__parameter * {
   font-size: 2rem;
   margin: 0;
 }
 
-.tradenode-window__income-icon {
-  background-image: url('../assets/gui/income.png');
+.window__parameter-icon {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   display: inline-block;
-  height: 1em;
+  height: 2rem;
   position: relative;
   top: 0.2em;
-  width: 1em;
+  width: 2rem;
+}
+
+.window__parameter-small {
+  margin-block: 0.5rem;
+}
+
+.window__parameter-small * {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.window__parameter-small-value {
+  margin-left: 2.5rem;
+}
+
+.tradenode-window {
+  max-height: 70%;
+  max-width: 80%;
+  min-height: 60%;
+  min-width: 40%;
+  z-index: 100;
+}
+
+.tradenode-window__close {
+  z-index: 200;
+}
+
+.tradenode-window__income {
+  margin-bottom: 0;
+}
+
+.tradenode-window__income-icon {
+  background-image: url('../assets/gui/income.png');
 }
 
 .tradenode-window__countries,
@@ -202,6 +183,45 @@ abbr {
   font-weight: normal !important;
 }
 
+.country-window {
+  max-height: 70%;
+  max-width: 80%;
+  min-height: 50%;
+  min-width: 50%;
+  z-index: 300;
+}
+
+.country-window__close {
+  z-index: 400;
+}
+
+.country-window__flag {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  border: 0.1em solid var(--window-border-color);
+  border-radius: 0.3em;
+  position: absolute;
+  right: 0;
+  height: 12rem;
+  width: 18rem;
+}
+
+.country-window__treasure-icon {
+  background-image: url('../assets/gui/treasure.png');
+}
+
+.country-window__income-full-icon {
+  background-image: url('../assets/gui/income.png');
+}
+
+@media screen and (max-width: 1400px) {
+  .country-window__flag {
+    height: 8rem;
+    width: 12rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   :root {
     font-size: 0.9rem;
@@ -211,6 +231,13 @@ abbr {
     min-height: 70% !important;
     min-width: 80% !important;
   }
+
+  .country-window__flag {
+    position: static;
+    margin: 0 auto;
+    height: 4rem;
+    width: 6rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -218,7 +245,7 @@ abbr {
     font-size: 0.7rem;
   }
 
-  .tradenode-window {
+  .window {
     max-height: 100% !important;
     max-width: 100% !important;
     height: 100% !important;

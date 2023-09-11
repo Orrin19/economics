@@ -23,67 +23,194 @@
       "name": "Антаковия",
       "id": "antakovia",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "suidal",
+          "influence": 30
+        },
+        {
+          "id": "qtl",
+          "influence": 45
+        },
+        {
+          "id": "celtania",
+          "influence": 25
+        }
+      ]
     },
     {
       "name": "Бават",
       "id": "bavat",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "shushia",
+          "influence": 90
+        },
+        {
+          "id": "principalities",
+          "influence": 10
+        }
+      ]
     },
     {
       "name": "Бушар",
       "id": "bushar",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "yeshar",
+          "influence": 45
+        },
+        {
+          "id": "yamotania",
+          "influence": 40
+        },
+        {
+          "id": "shushia",
+          "influence": 10
+        },
+        {
+          "id": "celtania",
+          "influence": 5
+        }
+      ]
     },
     {
       "name": "Чжун-Ту",
       "id": "chongtu",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "qunzhou",
+          "influence": 30
+        },
+        {
+          "id": "qtl",
+          "influence": 60
+        },
+        {
+          "id": "chengon",
+          "influence": 10
+        }
+      ]
     },
     {
       "name": "Клиттам",
       "id": "clittam",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "qtl",
+          "influence": 75
+        },
+        {
+          "id": "suidal",
+          "influence": 20
+        },
+        {
+          "id": "qunzhou",
+          "influence": 5
+        }
+      ]
     },
     {
       "name": "Дочехия",
       "id": "dochekhia",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "shushia",
+          "influence": 98
+        },
+        {
+          "id": "principalities",
+          "influence": 2
+        }
+      ]
     },
     {
       "name": "Джуджух",
       "id": "dzhudzhuh",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "qtl",
+          "influence": 30
+        },
+        {
+          "id": "shushia",
+          "influence": 70
+        }
+      ]
     },
     {
       "name": "Море призраков",
       "id": "ghostsea",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "qtl",
+          "influence": 65
+        },
+        {
+          "id": "qunzhou",
+          "influence": 20
+        },
+        {
+          "id": "suidal",
+          "influence": 15
+        }
+      ]
     },
     {
       "name": "Гошар",
       "id": "goshar",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "yeshar",
+          "influence": 35
+        },
+        {
+          "id": "shushia",
+          "influence": 65
+        }
+      ]
     },
     {
       "name": "Корская равнина",
       "id": "koreuplain",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "qtl",
+          "influence": 60
+        },
+        {
+          "id": "qunzhou",
+          "influence": 40
+        }
+      ]
     },
     {
       "name": "Лодогийский залив",
       "id": "lodogianbay",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "brabermain",
+          "influence": 35
+        },
+        {
+          "id": "melekia",
+          "influence": 30
+        },
+        {
+          "id": "velmissia",
+          "influence": 35
+        }
+      ]
     },
     {
       "name": "Нижний Бамбуг",
@@ -143,37 +270,107 @@
       "name": "Низовья Луриниса",
       "id": "lowerlurinis",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "suidal",
+          "influence": 45
+        },
+        {
+          "id": "ansaria",
+          "influence": 40
+        },
+        {
+          "id": "qtl",
+          "influence": 15
+        }
+      ]
     },
     {
       "name": "Новое море",
       "id": "newsea",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "rabi",
+          "influence": 35
+        },
+        {
+          "id": "kehia",
+          "influence": 40
+        },
+        {
+          "id": "principalities",
+          "influence": 25
+        }
+      ]
     },
     {
       "name": "Старые степи",
       "id": "oldsteppe",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "vochia",
+          "influence": 65
+        },
+        {
+          "id": "shushia",
+          "influence": 20
+        },
+        {
+          "id": "principalities",
+          "influence": 10
+        },
+        {
+          "id": "rabi",
+          "influence": 5
+        }
+      ]
     },
     {
       "name": "Княжества",
       "id": "principalities",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "principalities",
+          "influence": 90
+        },
+        {
+          "id": "kehia",
+          "influence": 10
+        }
+      ]
     },
     {
       "name": "Рабийские пески",
       "id": "rabiansands",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "rabi",
+          "influence": 75
+        },
+        {
+          "id": "vochia",
+          "influence": 25
+        }
+      ]
     },
     {
       "name": "Буйное море",
       "id": "roughsea",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "vochia",
+          "influence": 85
+        },
+        {
+          "id": "velmissia",
+          "influence": 15
+        }
+      ]
     },
     {
       "name": "Снофельт",
@@ -221,7 +418,16 @@
       "name": "Тарк",
       "id": "tark",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "shushia",
+          "influence": 65
+        },
+        {
+          "id": "principalities",
+          "influence": 35
+        }
+      ]
     },
     {
       "name": "Верхний Бамбуг",
@@ -269,19 +475,70 @@
       "name": "Вельмиссия",
       "id": "velmissia",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "velmissia",
+          "influence": 85
+        },
+        {
+          "id": "brabermain",
+          "influence": 5
+        },
+        {
+          "id": "vochia",
+          "influence": 5
+        },
+        {
+          "id": "tibor",
+          "influence": 5
+        }
+      ]
     },
     {
       "name": "Вадэрд",
       "id": "waderd",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "velmissia",
+          "influence": 35
+        },
+        {
+          "id": "brabermain",
+          "influence": 10
+        },
+        {
+          "id": "tibor",
+          "influence": 20
+        },
+        {
+          "id": "patriarchy",
+          "influence": 25
+        },
+        {
+          "id": "layosh",
+          "influence": 25
+        }
+      ]
     },
     {
       "name": "Ямотания",
       "id": "yamotania",
       "income": 5000,
-      "countries": []
+      "countries": [
+        {
+          "id": "suidal",
+          "influence": 25
+        },
+        {
+          "id": "yamotania",
+          "influence": 55
+        },
+        {
+          "id": "yeshar",
+          "influence": 20
+        }
+      ]
     }
   ]
 }

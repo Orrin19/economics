@@ -13,6 +13,7 @@ function renderPieChart(tradenode, tradeCountriesList) {
         indexLabelFontFamily: 'Kingthings',
         indexLabel: '{label}',
         outerWidth: 100,
+        explodeOnClick: false,
         toolTipContent: '<b>{label}:</b> #percent%',
         dataPoints: Object.values(tradeCountriesList)
           .map((country) => {
@@ -20,7 +21,7 @@ function renderPieChart(tradenode, tradeCountriesList) {
               y: tradenode.countries.find((c) => c.id == country.id).influence,
               color: country.color,
               label: country.name,
-              click: showCountryInfo,
+              click: showCountryInfo.bind(null, country),
               mousemove: function () {
                 document
                   .querySelectorAll(
@@ -40,36 +41,40 @@ function renderPieChart(tradenode, tradeCountriesList) {
 
 function buildTradenodeWindow(tradenode, countriesList) {
   const tradenodeWindow = document.createElement('div');
-  tradenodeWindow.classList.add('tradenode-window');
+  tradenodeWindow.classList.add('window', 'tradenode-window');
 
   const closeButton = document.createElement('button');
-  closeButton.classList.add('tradenode-window__close');
+  closeButton.classList.add('window__close', 'tradenode-window__close');
   closeButton.addEventListener('click', () => {
-    closeTradenodeWindow(tradenodeWindow);
+    tradenodeWindow.remove();
   });
   tradenodeWindow.append(closeButton);
 
-  /*const tradenodeName = document.createElement('h2');
-  tradenodeName.classList.add('tradenode-window__name');
-  tradenodeName.textContent = tradenode.name;
-  tradenodeWindow.append(tradenodeName);*/
-
   const tradenodeName = document.createElement('div');
-  tradenodeName.classList.add('tradenode-window__name');
+  tradenodeName.classList.add('window__name');
   const tradenodeNameText = document.createElement('h2');
   tradenodeNameText.textContent = tradenode.name;
   tradenodeName.append(tradenodeNameText);
   tradenodeWindow.append(tradenodeName);
 
-  const tradenodeIncome = document.createElement('abbr');
-  tradenodeIncome.classList.add('tradenode-window__income');
+  const tradenodeIncome = document.createElement('div');
+  tradenodeIncome.classList.add(
+    'window__parameter',
+    'tradenode-window__income'
+  );
   const tradenodeIncomeIcon = document.createElement('div');
-  tradenodeIncomeIcon.classList.add('tradenode-window__income-icon');
+  tradenodeIncomeIcon.classList.add(
+    'window__parameter-icon',
+    'tradenode-window__income-icon'
+  );
   const tradenodeIncomeValue = document.createElement('span');
-  tradenodeIncomeValue.classList.add('tradenode-window__income-value');
+  tradenodeIncomeValue.classList.add(
+    'window__parameter-value',
+    'tradenode-window__income-value'
+  );
   tradenodeIncomeValue.innerText = 'Доход области: ' + tradenode.income;
   tradenodeIncome.title =
-    'Общий доход с торгового узла, распределяющийся между влиятельными странами';
+    'Общий доход с торгового узла, распределяющийся между влиятельными странами (талетеев в сезон)';
   tradenodeIncome.append(tradenodeIncomeIcon, tradenodeIncomeValue);
   tradenodeWindow.append(tradenodeIncome);
 
@@ -84,10 +89,6 @@ function buildTradenodeWindow(tradenode, countriesList) {
       tradenode.countries.map((co) => co.id).includes(c.id)
     )
   );
-}
-
-function closeTradenodeWindow(tradenodeWindow) {
-  tradenodeWindow.remove();
 }
 
 function showTradenodeInfo(event, economicManager) {
