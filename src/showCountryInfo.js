@@ -19,7 +19,7 @@ function buildCountryWindow(country) {
   const countryFlag = document.createElement('div');
   countryFlag.classList.add('country-window__flag');
   const countryFlagImg = document.createElement('img');
-  countryFlag.style.backgroundImage = `url('../assets/flags/${country.id}.png')`;
+  countryFlag.style.backgroundImage = `url('/assets/flags/${country.id}.png')`;
   countryFlag.append(countryFlagImg);
   countryWindow.append(countryFlag);
 

@@ -41,8 +41,8 @@
       "goods": ["iron"]
     },
     {
-      "name": "Игтянь-Гоу",
-      "id": "chengon",
+      "name": "Хань-го",
+      "id": "hanguo",
       "treasure": 75000,
       "efficiency": 45,
       "color": "#ffd92f",
